@@ -1,0 +1,12 @@
+/* Import the font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+/* Apply font to .App class */
+.App {
+  min-height: 100vh;
+  display: flex;
+  font-family: 'Work Sans', sans-serif; /* Use Work Sans font */
+  background-image: url("./background.png");
+  background-size: cover;
+  background-position: center;
+}
